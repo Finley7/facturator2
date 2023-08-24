@@ -13,6 +13,7 @@ const form = useForm({
     country: '',
     vat_number: '',
     coc_number: '',
+    prefix: '',
 });
 
 const save = () => {

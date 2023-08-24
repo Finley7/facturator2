@@ -22,7 +22,7 @@ class CreateClientRequest extends FormRequest
             'country' => 'required|string|max:255',
             'coc_number' => 'required|string|max:255',
             'vat_number' => 'required|string|max:255',
-            'prefix' => 'required|string|max:255',
+            'prefix' => 'max:255',
         ];
     }
 }

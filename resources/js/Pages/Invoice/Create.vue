@@ -1,6 +1,7 @@
 <script setup>
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout.vue";
 import LinkButton from "@/Components/LinkButton.vue";
+
 </script>
 <template>
     <AuthenticatedLayout>
@@ -22,6 +23,8 @@ import LinkButton from "@/Components/LinkButton.vue";
                 <div class="lg:w-1/2">
                     <div class="bg-white p-5 rounded shadow">
                         Invoice draft
+{{ $page.props.auth.user.name }}
+
                     </div>
                 </div>
                 <div class="lg:w-1/2">Factuur voorbeeld</div>

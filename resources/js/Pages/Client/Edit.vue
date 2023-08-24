@@ -17,6 +17,7 @@ const form = useForm({
     country: props.client.country,
     vat_number: props.client.vat_number,
     coc_number: props.client.coc_number,
+    prefix: props.client.prefix
 });
 
 const save = () => {
